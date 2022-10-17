@@ -109,7 +109,7 @@ int print_rot13string(va_list types, char buffer[],
 
 /**
  * The handler of the width declared 
-*/
+ */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int write_number(int is_positive, int ind, char buffer[],
