@@ -5,7 +5,7 @@ October 17, 2022
 
 # Authors
 1. Martin Opolot
-2. Rebecca Tusigura
+2. Rebecca Tusingura
 
 # What is the format?
 
