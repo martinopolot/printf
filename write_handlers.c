@@ -50,9 +50,8 @@ int handle_write_char(char c, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: gets width.
- * @precision: precision 
- * @size: Size specifier
- *
+ *@precision: presicion
+ *@size: size
  * Return: Number of chars printed.
  */
 int write_number(int is_negative, int ind, char buffer[],
@@ -82,8 +81,8 @@ int write_number(int is_negative, int ind, char buffer[],
  * @buffer: Buffer
  * @flags: Flags
  * @width: width
- * @prec: Precision 
- * @length: Number length
+ * @prec: Precision
+ *@length: number length
  * @padd: Pading char
  * @extra_c: Extra char
  *
@@ -142,9 +141,8 @@ int write_num(int ind, char buffer[],
  * @buffer: Array of chars
  * @flags: Flags specifiers
  * @width: Width specifier
- * @precision: Precision 
- * @size: Size 
- *
+ * @precision: Precision
+ *@size: size
  * Return: Number of written chars.
  */
 int write_unsgnd(int is_negative, int ind,
@@ -180,11 +178,11 @@ int write_unsgnd(int is_negative, int ind,
 
 		buffer[i] = '\0';
 
-		if (flags & F_MINUS) 
+		if (flags & F_MINUS)
 		{
 			return (write(1, &buffer[ind], length) + write(1, &buffer[0], i));
 		}
-		else 
+		else
 		{
 			return (write(1, &buffer[0], i) + write(1, &buffer[ind], length));
 		}

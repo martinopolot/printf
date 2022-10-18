@@ -2,12 +2,12 @@
 
 /**
  * print_char - function that will print a character
- * @types: arguments 
+ *@types: arguments
  * @buffer: Array buffer to print
  * @flags:  sums the active flags
  * @width: Width
- * @precision: Precision 
- * @size: Size 
+ * @precision: precision
+ * @size: size
  * Return: Number of chars printed
  */
 int print_char(va_list types, char buffer[],
@@ -101,7 +101,7 @@ int print_percent(va_list types, char buffer[],
  * @buffer: array buffer to handle print
  * @flags:  find active flags
  * @width: gets width.
- * @precision: Precision 
+ *@precision: precision
  * @size: Size specifier
  * Return: Number of chars printed
  */
@@ -144,7 +144,7 @@ int print_int(va_list types, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: gets the width.
- * @precision: Precision 
+ * @precision: precision
  * @size: Size specifier
  * Return: Chars to be printed.
  */

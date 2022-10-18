@@ -6,8 +6,8 @@
  * @buffer: Buffer array to handle print
  * @flags:  sums up active flags
  * @width: gets the width
- * @precision: Precision 
- * @size: Size 
+ *@precision: precision
+ *@size: size
  * Return: Characters printed.
  */
 int print_unsigned(va_list types, char buffer[],

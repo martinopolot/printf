@@ -2,8 +2,7 @@
 
 /**
  * is_printable - check if char can be printed
- * @c: Char 
- *
+ *@c: char
  * Return: 1 if c is printable, 0 otherwise
  */
 int is_printable(char c)
