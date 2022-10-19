@@ -4,7 +4,6 @@
  * get_size - finds the size of the argument
  * @format: String formatter for argument.
  * @i: item lists to be displayed.
- *
  * Return: Precision.
  */
 int get_size(const char *format, int *i)

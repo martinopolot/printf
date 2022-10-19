@@ -75,6 +75,7 @@ int write_number(int is_negative, int ind, char buffer[],
 		length, padd, extra_ch));
 }
 
+
 /**
  * write_num - Write a number using a bufffer
  * @ind: number index starting point on the buffer

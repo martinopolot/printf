@@ -2,6 +2,7 @@
 
 void print_buffer(char buffer[], int *buff_ind);
 
+
 /**
  * _printf - the printf function
  * @format: format.
@@ -50,6 +51,7 @@ int _printf(const char *format, ...)
 
 	return (printedChars);
 }
+
 
 /**
  * print_buffer -to display the buffer's if it exist

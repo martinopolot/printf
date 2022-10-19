@@ -50,6 +50,7 @@ int print_pointer(va_list types, char buffer[],
 		width, flags, padd, extra_c, padd_start));
 }
 
+
 /**
  * print_non_printable - func to print non ascii_code
  * @types: argument list
